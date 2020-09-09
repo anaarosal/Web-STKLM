@@ -1,0 +1,325 @@
+*{
+    margin: 0;
+    padding: 0;
+    border: 0;
+    box-sizing: border-box;
+}
+li{
+    list-style-type: none;
+}
+a{
+    display: block;
+    text-decoration: none;
+}
+strong{
+    font-weight: 400;
+}
+p a { 
+    display: inline;
+}
+li{
+    list-style-type: none;
+}
+h1 , h2 , h3 , h4 , h5 , h6 {
+    font-size: 1em; 
+    font-weight: 400;
+} 
+body{
+    font-size: 16px;
+    font-family: 'Raleway', sans-serif;
+}
+.clear::after{
+    content:"";
+    display: block;
+    clear: both;
+}
+img{
+    display: block;
+    object-fit: cover;
+    max-width: 100%;
+    width: 100%;
+}
+header{
+    width: 100%;
+    background-color: white;
+    position: fixed;
+    padding: 40px 0 40px 60px;
+}
+header div{
+    width: 100%;
+    /* background-color: antiquewhite; */
+}
+header div h1{
+    width: 90px;
+    /* background-color: deepskyblue; */
+    float: left;
+}
+header div nav{
+    width: 60%;
+    max-width: 540px;
+    /* background-color: indianred; */
+    float: right;
+    text-transform: uppercase;
+    font-size: 0.8em;
+    letter-spacing: 3px;
+    position: relative;
+}
+header div i.fas{
+    position: absolute;
+    right: 100px;
+    display: none;
+}
+header div nav ul{
+    width: 100%;
+    /* background-color: lavenderblush; */
+}
+header div nav ul li{
+    /* width: 20%; */
+    /* background-color: deeppink; */
+    /* float: left; */
+    font-weight: 600;
+    display: inline-block;
+    margin: 0 10px;
+}
+header div nav ul li.home a{
+    color: rgb(230, 174, 72);
+}
+header div nav ul li a{
+    color: black;
+}
+header div nav ul li a:hover{
+    color: rgb(230, 174, 72);
+}
+main{
+    padding-top: 100px;
+}
+main section{
+    padding: 254px 0;
+}
+main section.white{
+    width: 100%;
+    height: 1057px;
+    background-color: white;
+    color: black
+}
+main section.yellow{
+    width: 100%;
+    height: 1057px;
+    background-color:rgb(230, 174, 72); 
+    color: white;
+} 
+main section.todos article{
+    width:90%;
+    max-width: 887px;
+    /* background-color: lightcoral; */
+    height: 500px;
+    margin: auto;
+}
+main section h2{
+    text-transform: uppercase;
+    font-weight: 700;
+    /* padding-bottom: 40px; */
+}
+main section.white article img{
+    width: 40%;
+    /* background-color: brown; */
+    float: left;
+}
+main section.white article div.texto{
+    width: 55%;
+    /* background-color: darkturquoise; */
+    float:right;  
+   
+}
+section.dos article img{
+    width: 30%;
+    background-position: left;
+    background-size: cover;
+}
+main section.yellow article img{
+    width: 50%;
+    /* background-color: blueviolet; */
+    float: right;
+}
+main section.yellow article div.texto{
+    width: 40%;
+    /* background-color: chartreuse; */
+    float: left;
+}
+main section.todos article div h2{
+    font-size: 2.2em;
+    color: rgb(57, 57, 57);
+    letter-spacing: 2px;
+}
+main section.yellow article div.texto h2{
+    color: white;
+}
+main section.yellow article div.texto p{
+    color: white;
+}
+main section.todos article div.texto{
+    margin: 70px 0 120px;
+}
+main section.todos article div.texto a{
+    display: inline-block;
+    padding:10px 40px;
+    border:3px solid black;
+    font-size: 0.65em;
+    text-transform: uppercase;
+    letter-spacing: 1px;
+}
+main section.white article div.texto a{
+    color: rgb(230, 174, 72);
+    border-color: rgb(230, 174, 72);
+}
+main section.yellow article div.texto a{
+    color: white;
+    border-color: white;
+}
+main section.todos article div p{
+    line-height: 2em;
+    font-weight: 400;
+    color: #393939;
+    margin-bottom: 20px;
+}
+footer{
+    width: 100%;
+    height: 1057px;
+    background-color: rgb(57, 57, 57);
+    padding-top: 382px;
+}
+footer div.gris{
+    width: 50%;
+    /* background-color: bisque; */
+    height: 200px;
+    margin: auto;
+}
+footer div.gris h3{
+    width: 100%;
+    margin: 100px auto 0 auto;
+    /* background-color: dodgerblue; */
+    font-size: 4em;
+    text-transform: uppercase;
+    font-weight: 800;
+    color: white;
+    text-align: center;
+}
+footer div.gris p{
+    margin: auto;
+    text-align: center;
+}
+footer div.gris p a{
+    color: rgb(230, 174, 72);
+    margin: auto;
+    text-align: center;
+}
+footer div.gris ul{
+    width: 50%;
+    /* background-color: bisque; */
+    margin: auto;
+    text-align: center;
+}
+footer div.gris ul li{
+    /* width: 25%; */
+    /* background-color: darkcyan; */
+    /* float: left; NO METER NUNCA FLOAT */
+    margin: 80px 7px 0 7px;
+    display: inline-block;
+}
+footer div.gris ul li a{
+    color: white;
+}
+main section.white article div div.linea{
+    width: 200px;
+    height: 2px;
+    background-color: black;
+    margin: 40px 0;
+    display: inline-block;
+}
+section.yellow div.linea{
+    width: 200px;
+    height: 2px;
+    background-color: white;
+    margin: 40px 0;
+    display: inline-block;
+}
+footer div.gris div.linea{
+    width: 200px;
+    height: 2px;
+    background-color: black;
+    margin: 40px auto;
+}
+@media screen and (max-width:600px){
+    header div nav ul{
+        display: none;
+    }
+    header div i.fas{
+        display: block;
+        color: rgb(57, 57, 57);
+        font-size: 1.2em;
+        margin-top: 7px;
+    }
+    header nav.activado{
+        width: 100%;
+        display: block;
+    }
+    header nav.activado ul{
+        display: block;
+    }
+    header nav.activado ul li{
+        width: 100%;
+        text-align: center;
+        padding: 20px 0;
+    }
+    main section.todos{
+        padding-top: 100px;
+    }
+    main section.white article img {
+        width: 100%;
+    }
+    main section.white article div.texto{
+        width: 100%;
+    }
+    main section.uno{
+        height: 887px;
+    }
+    main section.dos{
+        height: 1017px;
+    }
+    main section.tres{
+        height: 987px;
+    }
+    main section.cuatro{
+        height: 1147px;
+    }
+    main section.yellow article img{
+        width: 100%;
+    }
+    main section.yellow article div.texto{
+        width: 100%;
+    }
+    footer{
+        padding-top: 80px;
+        height: 557px;
+    }
+    footer div.gris ul{
+        width: 100%;
+    }
+}
+@media screen and (min-width:600px) and (max-width: 772px){
+    header div nav ul{
+        text-transform: lowercase;
+        font-size: 0.7em;
+        letter-spacing: 2.5px;
+    }
+    header div nav ul li{
+        margin: 0 7px;
+    }
+}
+@media screen and (min-width:600px) and (max-width: 1023px){
+    header div nav ul{
+        text-transform: lowercase;
+        font-size: 0.8em;
+        letter-spacing: 3px;
+    }
+}
